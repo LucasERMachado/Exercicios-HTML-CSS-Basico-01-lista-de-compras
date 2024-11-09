@@ -1,0 +1,35 @@
+table{
+    border: 2px solid;
+    margin: 20px 0px 0px 250px;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 24px;
+    text-align: center;
+    text-justify: auto;
+    border: 2px solid;
+    border-radius: 10px;
+}
+th, td{
+    border: 2px solid;
+    padding: 10px;
+}
+
+.descricao-produto{
+    background-color: rgb(240, 80, 2);
+}
+
+.produto{
+    font-size: 20px;
+    text-align: center;
+    background-color: aqua;
+}
+.valor-total{
+    font-size: 20px;
+    text-align: center;
+    background-color: blueviolet;
+}
+.total{
+    font-size: 30px;
+}

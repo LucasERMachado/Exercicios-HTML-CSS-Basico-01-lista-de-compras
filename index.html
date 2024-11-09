@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Ex 1 Lista de Compras</title>
+</head>
+<body>
+
+    <!-- Crie uma lista de alimentos “saudáveis” usando as tags corretas de HTML. -->
+
+    <!-- Sua lista deve ter no mínimo 3 itens e além do nome do produto ela deve ter o preço de cada um logo ao lado EM NEGRITO E DANDO
+ÊNFASE AO VALOR TOTAL. -->
+
+<!-- Ao final da lista você deve colocar o valor total dos produtos também em negrito e ênfase -->
+
+<!-- Exemplo de lista:
+
+Café - R$ 15,00
+Bolo de chocolate - R$ 12,00
+Energético - R$ 8,00
+
+Total - R$ 35,00 -->
+
+<table>
+    <thead>
+        <h1>Lista de Compras</h1>
+    </thead>
+
+    <tbody>
+        <tr class="descricao-produto">
+            <th>Produto</th>
+            <th>Preço</th>  
+            <th>Promoção</th>
+            <th>Valor na promoção</th>     
+        </tr>
+        <tr class="produto">
+            <td>Banana</td>
+            <td><strong>R$8,39 o kg</strong></td>
+            <td>Sim</td>
+            <td><strong>R$6,99</strong></td>
+        </tr>
+        <tr class="produto">
+            <td>Arroz Integral</td>
+            <td><strong>R$11,00 o kg</strong></td>
+            <td>Não</td>
+            <td>---</td>
+        </tr>
+        <tr class="produto">
+            <td>Alface</td>
+            <td><strong>R$5,99 (un)</strong></td>
+            <td>Sim</td>
+            <td><strong>R$4,85</strong></td>
+        </tr>
+        <tr class="produto">
+            <td>Tomate</td>
+            <td><strong>R$3,52 o kg</strong></td>
+            <td>Não</td>
+            <td>---</td>
+        </tr>
+        <tr class="produto">
+            <td>Feijão</td>
+            <td><strong>R$15,00 (un)</strong></td>
+            <td>Sim</td>
+            <td><strong>R$13,99</strong></td>
+        </tr>
+        <tr class="produto">
+            <td>Filé de frango</td>
+            <td><strong>R$20,00 o Kg</strong></td>
+            <td>Sim</td>
+            <td><strong>R$17,55</strong></td>
+        </tr>
+        <tr class="produto">
+            <td>Pão integral</td>
+            <td><strong>R$24,77 (pacote)</strong></td>
+            <td>Sim</td>
+            <td><strong>R$20,39</strong></td>
+        </tr>
+        <tr class="produto">
+            <td>Suco Del valle laranja</td>
+            <td><strong>R$7,00 (un)</strong></td>
+            <td>Não</td>
+            <td>---</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="total"><strong>Total</strong></td>
+            <td class="valor-total"><strong>R$85,29</strong></td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
